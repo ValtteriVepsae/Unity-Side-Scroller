@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour
     private float startDelay = 3; //this is how long from the start of the game it
                                   //takes to spawn the first obstacle
     private float repeatRate = 3; //this is how long it takes to spawn another after another
-    private Vector3 spawnPos = new Vector3(25, 0, 6); //this is the spawning coordinates
+    private Vector3 spawnPos = new Vector3(-50, 0, 6); //this is the spawning coordinates
                                                       //for the object to spawn to
     private PlayerController playerControllerScript;
     // Start is called before the first frame update

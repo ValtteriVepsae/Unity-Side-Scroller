@@ -446,7 +446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42, y: 140}
+  m_AnchoredPosition: {x: 41, y: 140}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &433129419
@@ -627,7 +627,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!4 &504866301 stripped
 Transform:
@@ -1577,7 +1577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1093773817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae7ef907933d554ea35a8fb9b85712b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2df0966812502a842992fbf3d49ad789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1093844458
@@ -1594,7 +1594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7911724373446144969, guid: 325d2bcd156c03f42ba21779e5e0af18, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.809998
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 7911724373446144969, guid: 325d2bcd156c03f42ba21779e5e0af18, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1676,7 +1676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42, y: -23}
+  m_AnchoredPosition: {x: 41, y: -23}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1283207895
