@@ -7,7 +7,7 @@ public class MoveLeft : MonoBehaviour //this is actually move right script,
 {
     public float speed = 5; //this is a speed at which the obstacles and background moves
     private PlayerController playerControllerScript;
-    private float rightBound = 60; //this is a value for later check to destroy obstacles
+    private float rightBound = 0; //this is a value for later check to destroy obstacles
 
     // Start is called before the first frame update
     void Start()
